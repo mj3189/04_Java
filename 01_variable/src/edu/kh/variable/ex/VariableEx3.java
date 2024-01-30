@@ -44,7 +44,7 @@ public class VariableEx3 {
 			// 난수  :  Math.random();
 			//  ->  0.0  <= x < 1.0
 			
-			// 1 ~ 10 사이 난수  (소수점 자체를 없내는 방법)
+			// 1 ~ 10 사이 난수  (소수점 자체를 없애는 방법)
 			int random = (int)(Math.random() * 10 + 1); 
 					// 난수에서 발생하는 소수 부분을 강제 형변환으로 제거
 			
