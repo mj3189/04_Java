@@ -39,6 +39,32 @@ public class Student {
 		this.gender = gender;
 	}
 	
+	public void setjava(int java) {
+		
+	}
 	
+	public void sethtml(int html) {
+		
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+	public String getStudentNumber() {
+		return studentNumber;
+	}
+	
+	public char getGender() {
+		return gender;
+	}
+	
+	public int getJava() {
+		return java;
+	}
+	
+	public int getHtml() {
+		return html;
+	}
 	
 }
