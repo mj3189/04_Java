@@ -62,9 +62,22 @@ public class Child1 extends Parent{
 	@Override
 	public String toString() {
 		return super.toString() + "\nChild1.toString() : " + computer;
-	               
+	
 	}
 	
+	/* final 메서드 - > 오버라이딩 불가 
+	 * 
+	 * - 메서드의 기능이 변하면 안되는 경우
+	 * 
+	 * */
+	
+	
+	public final void onlyChild1() {
+		System.out.println("final 메서드 입니다.");
+		
+		
+		
+	}
 	
 	
 }

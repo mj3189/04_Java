@@ -5,6 +5,7 @@ package edu.kh.inheritance.model.dto;
 // - class 선언부에 상속 구문이 하나도 작성되지 않으면
 //   컴파일러가 extends Object 구문을 추가해준다!!!
 
+                  //extends Object -> 지워도 상관없다
 public class Parent extends Object{
 
 	public String lastName = "홍";   // 성
